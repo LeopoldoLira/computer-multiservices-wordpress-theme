@@ -1,0 +1,16 @@
+@media (min-width: 1px) and (max-width: 768px) {
+    footer{
+        .footer-container{
+            flex-direction: column;
+            gap: 10rem;
+    
+            &__social{
+                nav{
+                    ul{
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+    }  
+}

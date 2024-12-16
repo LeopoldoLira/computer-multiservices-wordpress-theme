@@ -1,0 +1,52 @@
+@media screen and (max-width:768px){
+
+
+
+    // Services Section Styles
+    .services__section{
+        flex-direction: column;
+        div{
+            width: 70%;
+        }
+    }
+
+    // Who we are section styles
+    .who-we-are__section{
+        flex-direction: column;
+    }
+
+
+    // What we offer Section styles
+    .services-offered__section{
+        .services-offered-grid{
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+
+
+    // Why Choose us section styles 
+    .why-choose-us-inner-wrapper{
+        flex-direction: column;
+        .why-choose-us-technician-image-container{
+            display:grid;
+            place-items: center;
+            img{
+                width: 50%;
+            }
+        }
+    }
+
+
+    // Supported Brands Section Styles
+    .supported-brands-section{
+        div{
+            .supported-brands-grid{
+                grid-template-columns: repeat(2,1fr);
+
+                div{
+                    width: 40vw;
+                }
+            }
+        }
+    }
+}

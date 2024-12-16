@@ -1,0 +1,45 @@
+
+.landing__hero-section{
+    background-image: url('/wp-content/themes/multiserviciosaa/assets/images/hero.webp');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    div{
+        display:flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+        gap: 2rem;
+        padding-left: 5rem;
+        width: 50%;
+        h1, h2{
+            color: white;
+        }
+        h1{
+            font-weight: 500;
+            font-size: 3em;
+            span{
+                font-weight: 900;
+            }
+        }
+        h2{
+            font-weight: 300;
+            font-size: 2em;
+            width: 80%;
+            span{
+                font-weight: 900;
+            }
+        }
+        a{
+            text-decoration: none;
+            background-color: var(--cta-bg-color);
+            padding: 1em 2em;
+            border-radius: 2em;
+            color: var(--cta-font-color);
+            font-weight: 700;
+        }
+    }
+}

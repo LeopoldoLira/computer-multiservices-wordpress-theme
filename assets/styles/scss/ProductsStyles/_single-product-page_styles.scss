@@ -1,0 +1,40 @@
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5rem 3rem;
+    &__image{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__features{
+        width: 50%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap:1rem;
+
+        &__description{
+            font-weight: 300;
+            color: grey;
+        }
+
+        &__price{
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: #3BFBC2;
+        }
+
+        &__list{
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #203F71;
+            padding-left:1.5rem;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+// Styles for Header
+@import "./Header/header_styles";
+
+// Styles for footer
+@import "./Footer/footer-styles";
+
+// Styles for Landing Page
+@import "./Landing/Hero-section";
+@import "./Landing/services-section";
+@import "./landing/Brands-section";
+@import './Landing/Services-Offered-section';
+@import './Landing/Why-choose-us-section';
+@import './Landing/Who-we-are_section';
+
+// Styles for Contact Page
+@import './Contact/contact-styles';
+
+// Styles for About Us Page
+@import './AboutUs/about-us_styles';
+
+// Styles for Services Page
+@import './ServicesStyles/services_styles';
+@import './ServicesStyles/single-service-page_styles';
+
+// Styles for Products / Catalogue Page
+@import './ProductsStyles/products-page_styles';
+@import './ProductsStyles/single-product-page_styles';
+
+// Responsive Styles for tablet resolution 768px
+@import './ResponsiveStyles/TabletResolution/LandingPage/Landing-responsive_styles';
+@import './ResponsiveStyles/TabletResolution/Footer/Footer-responsive-styles';
+
+:root{
+    --header-height: 5rem;
+    --cta-bg-color: #3BFBC2;
+    --cta-font-color:#203f71;
+}
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+*, *::after, *::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+
+
+.floating-button-whatsapp{
+    position:fixed;
+    bottom: 5%;
+    right: 3%;
+    z-index: 9999;
+    a{
+        img{
+            width: 5em;
+            transition: transform 200ms ease-in-out;
+        }
+        img:hover{
+            transform: scale(1.05);
+        }
+    }
+
+    
+}
